@@ -1,0 +1,12 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/gitlab-runner/builds/s4pLexCBv/0/platform/notifications/sudo-notification-ios/sudo-notification-ios-gh/SudoNotificationExtension/Source/Public/Errors/SudoNotifiableClientError.swift",
+      "line": 9,
+      "symbol": "SudoNotifiableClientError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/gitlab-runner/builds/s4pLexCBv/0/platform/notifications/sudo-notification-ios/sudo-notification-ios-gh"
+}

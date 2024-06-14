@@ -1,0 +1,16 @@
+theme: fullwidth 
+skip_undocumented: true
+readme: README.md
+documentation: Documentation/*.md
+hide_documentation_coverage: true
+xcodebuild_arguments:
+  - -workspace
+  - SudoNotification.xcworkspace
+  - -scheme
+  - SudoNotificationExtension
+  - -destination
+  - 'platform=iOS Simulator,id=%%SIMULATOR_ID%%'
+  - -derivedDataPath
+  - DocBuild
+output: docs
+module: SudoNotificationExtension
