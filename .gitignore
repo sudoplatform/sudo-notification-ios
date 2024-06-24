@@ -37,6 +37,10 @@ awsconfiguration.json
 
 html/*
 Documentation/*
+docs/
+DocBuild/
+
+util/*.sed.*
 
 .idea/
 
