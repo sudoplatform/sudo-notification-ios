@@ -2,7 +2,7 @@
 
 ## Overview
 
-Your users will be able to set and configure push notifications.
+Your users will be able to receive and manage push notifications.
 
 Please see the [Sudo Platform Developer Docs](https://sudoplatform.com/docs) for an overview of Notifications in the Sudo Platform.
 
