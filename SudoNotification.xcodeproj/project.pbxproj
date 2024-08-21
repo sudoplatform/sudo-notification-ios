@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10B03FF995F2AD274AE7F552 /* Pods_SudoNotificationExtension_SudoNotificationExtensionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D114705863BB4187ABB32FD4 /* Pods_SudoNotificationExtension_SudoNotificationExtensionTests.framework */; };
 		2451ECC829EA10A100DE3F8B /* TestNotificationMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2451ECC729EA10A100DE3F8B /* TestNotificationMetaData.swift */; };
 		24ACC90B29C8E4B10043AEA0 /* SudoNotificationIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ACC90A29C8E4B10043AEA0 /* SudoNotificationIntegrationTests.swift */; };
 		24ACC90C29C8E4B10043AEA0 /* SudoNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D1508429A57A9F0032F08D /* SudoNotification.framework */; platformFilter = ios; };
@@ -61,7 +62,13 @@
 		5D86DC882C19C2550061BF58 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86DC872C19C2550061BF58 /* AnyError.swift */; };
 		5D86DC8A2C19C7F70061BF58 /* SudoNotificationExtension.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5D86DC892C19C7F70061BF58 /* SudoNotificationExtension.podspec */; };
 		5D86DC8E2C19C9280061BF58 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86DC8D2C19C9280061BF58 /* AnyError.swift */; };
-		B908FCDA17E921F15F835843 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		6256FFF88000F3758D0A9AA9 /* Pods_SudoNotification_SudoNotificationTests_SudoNotificationIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B709A8A2A7E6C2F4C9F79AB7 /* Pods_SudoNotification_SudoNotificationTests_SudoNotificationIntegrationTests.framework */; };
+		76F9B25AA9BCBDE6D284A7D8 /* Pods_SudoNotification_SudoNotificationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABC9DFD474FEBAF80FA5930 /* Pods_SudoNotification_SudoNotificationTests.framework */; };
+		9D6A240F7BDCC8B433F27B24 /* Pods_SudoNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF82D4462179B3024AFBCC9 /* Pods_SudoNotification.framework */; };
+		B4395223B687533ACE440782 /* Pods_SudoNotificationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7863A25167D1670DAE009944 /* Pods_SudoNotificationExtension.framework */; };
+		B908FCDA17E921F15F835843 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		CC2A0D8D628B9CE16B6550FC /* Pods_SudoNotification_TestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A263BD260526CE59A2D6DF /* Pods_SudoNotification_TestApp.framework */; };
+		D201852AA8D801338A8EAAE2 /* Pods_SudoNotificationExtension_TestExtensionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D03F3FE453748EA8B65423E /* Pods_SudoNotificationExtension_TestExtensionApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,9 +138,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0399CD2F7FF88DD91B2B2AF1 /* Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
-		146905B7E67F87DA54B45ADF /* Pods-SudoNotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotificationExtension.release.xcconfig"; path = "Target Support Files/Pods-SudoNotificationExtension/Pods-SudoNotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
-		1E0519F5DFA19302191C427A /* Pods-SudoNotificationExtension-SudoNotificationExtensionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotificationExtension-SudoNotificationExtensionTests.release.xcconfig"; path = "Target Support Files/Pods-SudoNotificationExtension-SudoNotificationExtensionTests/Pods-SudoNotificationExtension-SudoNotificationExtensionTests.release.xcconfig"; sourceTree = "<group>"; };
+		079A34E3C755DC06DC5759AB /* Pods-SudoNotificationExtension-TestExtensionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotificationExtension-TestExtensionApp.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotificationExtension-TestExtensionApp/Pods-SudoNotificationExtension-TestExtensionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0C298037F10C181C91892B66 /* Pods-SudoNotificationExtension-TestExtensionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotificationExtension-TestExtensionApp.release.xcconfig"; path = "Target Support Files/Pods-SudoNotificationExtension-TestExtensionApp/Pods-SudoNotificationExtension-TestExtensionApp.release.xcconfig"; sourceTree = "<group>"; };
+		1D03F3FE453748EA8B65423E /* Pods_SudoNotificationExtension_TestExtensionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudoNotificationExtension_TestExtensionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2451ECC729EA10A100DE3F8B /* TestNotificationMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNotificationMetaData.swift; sourceTree = "<group>"; };
 		24ACC90829C8E4B10043AEA0 /* SudoNotificationIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudoNotificationIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24ACC90A29C8E4B10043AEA0 /* SudoNotificationIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudoNotificationIntegrationTests.swift; sourceTree = "<group>"; };
@@ -177,9 +184,9 @@
 		24D150B229A6CF4D0032F08D /* NotificationTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTransformer.swift; sourceTree = "<group>"; };
 		24D150B629A712C30032F08D /* DeRegisterNotificationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeRegisterNotificationUseCase.swift; sourceTree = "<group>"; };
 		24F0319B29AD217700CD93E6 /* UpdateNotificationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNotificationUseCase.swift; sourceTree = "<group>"; };
-		295432D2B8E53121703F824C /* Pods-SudoNotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotificationExtension.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotificationExtension/Pods-SudoNotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		2E3CDACAAD8011629E72EEC9 /* Pods-SudoNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotification/Pods-SudoNotification.debug.xcconfig"; sourceTree = "<group>"; };
-		52CDF10AB056F28234B055BB /* Pods-SudoNotification-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification-TestApp.release.xcconfig"; path = "Target Support Files/Pods-SudoNotification-TestApp/Pods-SudoNotification-TestApp.release.xcconfig"; sourceTree = "<group>"; };
+		3BF82D4462179B3024AFBCC9 /* Pods_SudoNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudoNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		458CF7EACF98F26B423BF3FF /* Pods-SudoNotification-SudoNotificationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification-SudoNotificationTests.release.xcconfig"; path = "Target Support Files/Pods-SudoNotification-SudoNotificationTests/Pods-SudoNotification-SudoNotificationTests.release.xcconfig"; sourceTree = "<group>"; };
+		57B7A5B3042D0D825E581C4E /* Pods-SudoNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification.release.xcconfig"; path = "Target Support Files/Pods-SudoNotification/Pods-SudoNotification.release.xcconfig"; sourceTree = "<group>"; };
 		5D86DC392C19BE1C0061BF58 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Public/Constants.swift; sourceTree = "<group>"; };
 		5D86DC3B2C19BE2E0061BF58 /* SudoNotificationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudoNotificationError.swift; sourceTree = "<group>"; };
 		5D86DC3E2C19BEAC0061BF58 /* SudoNotificationFilterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudoNotificationFilterClient.swift; sourceTree = "<group>"; };
@@ -198,14 +205,21 @@
 		5D86DC872C19C2550061BF58 /* AnyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
 		5D86DC892C19C7F70061BF58 /* SudoNotificationExtension.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SudoNotificationExtension.podspec; sourceTree = SOURCE_ROOT; };
 		5D86DC8D2C19C9280061BF58 /* AnyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
-		64BE347292E51C086B15247B /* Pods-SudoNotificationExtension-TestExtensionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotificationExtension-TestExtensionApp.release.xcconfig"; path = "Target Support Files/Pods-SudoNotificationExtension-TestExtensionApp/Pods-SudoNotificationExtension-TestExtensionApp.release.xcconfig"; sourceTree = "<group>"; };
-		7CF3F09395B259EF2A785852 /* Pods-SudoNotificationExtension-SudoNotificationExtensionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotificationExtension-SudoNotificationExtensionTests.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotificationExtension-SudoNotificationExtensionTests/Pods-SudoNotificationExtension-SudoNotificationExtensionTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A353E76E9F8183E185327C2C /* Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.release.xcconfig"; path = "Target Support Files/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
-		CE65359FF776AF35DB25572B /* Pods-SudoNotification-SudoNotificationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification-SudoNotificationTests.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotification-SudoNotificationTests/Pods-SudoNotification-SudoNotificationTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1837B2229B0F7216DB89C02 /* Pods-SudoNotification-SudoNotificationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification-SudoNotificationTests.release.xcconfig"; path = "Target Support Files/Pods-SudoNotification-SudoNotificationTests/Pods-SudoNotification-SudoNotificationTests.release.xcconfig"; sourceTree = "<group>"; };
-		DEE9553D507BBEAEF7A2A0A5 /* Pods-SudoNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification.release.xcconfig"; path = "Target Support Files/Pods-SudoNotification/Pods-SudoNotification.release.xcconfig"; sourceTree = "<group>"; };
-		F63371D7960C4E3A3016D733 /* Pods-SudoNotificationExtension-TestExtensionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotificationExtension-TestExtensionApp.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotificationExtension-TestExtensionApp/Pods-SudoNotificationExtension-TestExtensionApp.debug.xcconfig"; sourceTree = "<group>"; };
-		FB7E5591FB07EBA31E3A2C05 /* Pods-SudoNotification-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification-TestApp.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotification-TestApp/Pods-SudoNotification-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7863A25167D1670DAE009944 /* Pods_SudoNotificationExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudoNotificationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABC9DFD474FEBAF80FA5930 /* Pods_SudoNotification_SudoNotificationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudoNotification_SudoNotificationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA5554A65BDA8DDCCE18291 /* Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.release.xcconfig"; path = "Target Support Files/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
+		922C3434388FCFC78545ACC4 /* Pods-SudoNotification-SudoNotificationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification-SudoNotificationTests.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotification-SudoNotificationTests/Pods-SudoNotification-SudoNotificationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C4136B982C21D74D03DE00B /* Pods-SudoNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotification/Pods-SudoNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		A3B6BF7AA3E843D0041DCB19 /* Pods-SudoNotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotificationExtension.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotificationExtension/Pods-SudoNotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		B709A8A2A7E6C2F4C9F79AB7 /* Pods_SudoNotification_SudoNotificationTests_SudoNotificationIntegrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudoNotification_SudoNotificationTests_SudoNotificationIntegrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA6799622190364217F033E /* Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6AA68BA8BFF55EB52ABC63A /* Pods-SudoNotification-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification-TestApp.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotification-TestApp/Pods-SudoNotification-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D114705863BB4187ABB32FD4 /* Pods_SudoNotificationExtension_SudoNotificationExtensionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudoNotificationExtension_SudoNotificationExtensionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8D6EEE35A37280C825A50D /* Pods-SudoNotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotificationExtension.release.xcconfig"; path = "Target Support Files/Pods-SudoNotificationExtension/Pods-SudoNotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
+		E8C1C2CB9AB9C3A8CE8BD3BA /* Pods-SudoNotificationExtension-SudoNotificationExtensionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotificationExtension-SudoNotificationExtensionTests.debug.xcconfig"; path = "Target Support Files/Pods-SudoNotificationExtension-SudoNotificationExtensionTests/Pods-SudoNotificationExtension-SudoNotificationExtensionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA6CB0E2A621900DFB099DF3 /* Pods-SudoNotificationExtension-SudoNotificationExtensionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotificationExtension-SudoNotificationExtensionTests.release.xcconfig"; path = "Target Support Files/Pods-SudoNotificationExtension-SudoNotificationExtensionTests/Pods-SudoNotificationExtension-SudoNotificationExtensionTests.release.xcconfig"; sourceTree = "<group>"; };
+		F995CEF49B380C0B2161B18F /* Pods-SudoNotification-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoNotification-TestApp.release.xcconfig"; path = "Target Support Files/Pods-SudoNotification-TestApp/Pods-SudoNotification-TestApp.release.xcconfig"; sourceTree = "<group>"; };
+		F9A263BD260526CE59A2D6DF /* Pods_SudoNotification_TestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudoNotification_TestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +227,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6256FFF88000F3758D0A9AA9 /* Pods_SudoNotification_SudoNotificationTests_SudoNotificationIntegrationTests.framework in Frameworks */,
 				24ACC90C29C8E4B10043AEA0 /* SudoNotification.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +236,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F9B25AA9BCBDE6D284A7D8 /* Pods_SudoNotification_SudoNotificationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +244,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B908FCDA17E921F15F835843 /* (null) in Frameworks */,
+				B908FCDA17E921F15F835843 /* BuildFile in Frameworks */,
+				CC2A0D8D628B9CE16B6550FC /* Pods_SudoNotification_TestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +253,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6A240F7BDCC8B433F27B24 /* Pods_SudoNotification.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +261,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D201852AA8D801338A8EAAE2 /* Pods_SudoNotificationExtension_TestExtensionApp.framework in Frameworks */,
 				5D86DC682C19BF530061BF58 /* SudoNotificationExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +270,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4395223B687533ACE440782 /* Pods_SudoNotificationExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +278,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B03FF995F2AD274AE7F552 /* Pods_SudoNotificationExtension_SudoNotificationExtensionTests.framework in Frameworks */,
 				5D86DC5D2C19BF530061BF58 /* SudoNotificationExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +318,7 @@
 				5D86DC622C19BF530061BF58 /* SudoNotificationExtensionTests */,
 				24D1500E29A56FA90032F08D /* Products */,
 				36DFF62429102142E447B370 /* Pods */,
-				DD3CDD9B132A124E5475DDF6 /* Frameworks */,
+				6CCD6331CD5E640032817035 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -497,20 +518,20 @@
 		36DFF62429102142E447B370 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0399CD2F7FF88DD91B2B2AF1 /* Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.debug.xcconfig */,
-				A353E76E9F8183E185327C2C /* Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.release.xcconfig */,
-				CE65359FF776AF35DB25572B /* Pods-SudoNotification-SudoNotificationTests.debug.xcconfig */,
-				D1837B2229B0F7216DB89C02 /* Pods-SudoNotification-SudoNotificationTests.release.xcconfig */,
-				FB7E5591FB07EBA31E3A2C05 /* Pods-SudoNotification-TestApp.debug.xcconfig */,
-				52CDF10AB056F28234B055BB /* Pods-SudoNotification-TestApp.release.xcconfig */,
-				2E3CDACAAD8011629E72EEC9 /* Pods-SudoNotification.debug.xcconfig */,
-				DEE9553D507BBEAEF7A2A0A5 /* Pods-SudoNotification.release.xcconfig */,
-				7CF3F09395B259EF2A785852 /* Pods-SudoNotificationExtension-SudoNotificationExtensionTests.debug.xcconfig */,
-				1E0519F5DFA19302191C427A /* Pods-SudoNotificationExtension-SudoNotificationExtensionTests.release.xcconfig */,
-				F63371D7960C4E3A3016D733 /* Pods-SudoNotificationExtension-TestExtensionApp.debug.xcconfig */,
-				64BE347292E51C086B15247B /* Pods-SudoNotificationExtension-TestExtensionApp.release.xcconfig */,
-				295432D2B8E53121703F824C /* Pods-SudoNotificationExtension.debug.xcconfig */,
-				146905B7E67F87DA54B45ADF /* Pods-SudoNotificationExtension.release.xcconfig */,
+				BDA6799622190364217F033E /* Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.debug.xcconfig */,
+				7DA5554A65BDA8DDCCE18291 /* Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.release.xcconfig */,
+				922C3434388FCFC78545ACC4 /* Pods-SudoNotification-SudoNotificationTests.debug.xcconfig */,
+				458CF7EACF98F26B423BF3FF /* Pods-SudoNotification-SudoNotificationTests.release.xcconfig */,
+				C6AA68BA8BFF55EB52ABC63A /* Pods-SudoNotification-TestApp.debug.xcconfig */,
+				F995CEF49B380C0B2161B18F /* Pods-SudoNotification-TestApp.release.xcconfig */,
+				9C4136B982C21D74D03DE00B /* Pods-SudoNotification.debug.xcconfig */,
+				57B7A5B3042D0D825E581C4E /* Pods-SudoNotification.release.xcconfig */,
+				E8C1C2CB9AB9C3A8CE8BD3BA /* Pods-SudoNotificationExtension-SudoNotificationExtensionTests.debug.xcconfig */,
+				EA6CB0E2A621900DFB099DF3 /* Pods-SudoNotificationExtension-SudoNotificationExtensionTests.release.xcconfig */,
+				079A34E3C755DC06DC5759AB /* Pods-SudoNotificationExtension-TestExtensionApp.debug.xcconfig */,
+				0C298037F10C181C91892B66 /* Pods-SudoNotificationExtension-TestExtensionApp.release.xcconfig */,
+				A3B6BF7AA3E843D0041DCB19 /* Pods-SudoNotificationExtension.debug.xcconfig */,
+				DF8D6EEE35A37280C825A50D /* Pods-SudoNotificationExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -596,9 +617,16 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		DD3CDD9B132A124E5475DDF6 /* Frameworks */ = {
+		6CCD6331CD5E640032817035 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3BF82D4462179B3024AFBCC9 /* Pods_SudoNotification.framework */,
+				7ABC9DFD474FEBAF80FA5930 /* Pods_SudoNotification_SudoNotificationTests.framework */,
+				B709A8A2A7E6C2F4C9F79AB7 /* Pods_SudoNotification_SudoNotificationTests_SudoNotificationIntegrationTests.framework */,
+				F9A263BD260526CE59A2D6DF /* Pods_SudoNotification_TestApp.framework */,
+				7863A25167D1670DAE009944 /* Pods_SudoNotificationExtension.framework */,
+				D114705863BB4187ABB32FD4 /* Pods_SudoNotificationExtension_SudoNotificationExtensionTests.framework */,
+				1D03F3FE453748EA8B65423E /* Pods_SudoNotificationExtension_TestExtensionApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -629,12 +657,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24ACC91129C8E4B10043AEA0 /* Build configuration list for PBXNativeTarget "SudoNotificationIntegrationTests" */;
 			buildPhases = (
-				629883372DD75D4AEC6AC77F /* [CP] Check Pods Manifest.lock */,
+				4312E149EB66204F317263C9 /* [CP] Check Pods Manifest.lock */,
 				24ACC90429C8E4B10043AEA0 /* Sources */,
 				24ACC90529C8E4B10043AEA0 /* Frameworks */,
 				24ACC90629C8E4B10043AEA0 /* Resources */,
 				24ACC91729C8E8070043AEA0 /* Copy Configuration */,
-				24ACC91829C8E9CB0043AEA0 /* [CP] Embed Pods Frameworks */,
+				39407E7F7B40F9DCEF20C289 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -651,11 +679,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24D1503529A56FAB0032F08D /* Build configuration list for PBXNativeTarget "SudoNotificationTests" */;
 			buildPhases = (
-				17A5A01FEEAB34C729BD7DC8 /* [CP] Check Pods Manifest.lock */,
+				94CA6C61F48481909168B73B /* [CP] Check Pods Manifest.lock */,
 				24D1501A29A56FAB0032F08D /* Sources */,
 				24D1501B29A56FAB0032F08D /* Frameworks */,
 				24D1501C29A56FAB0032F08D /* Resources */,
-				85D49DA2A88949C4597896B7 /* [CP] Embed Pods Frameworks */,
+				22E12EF5A3E1D0D1CCC3A514 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -672,12 +700,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24D1505529A5717B0032F08D /* Build configuration list for PBXNativeTarget "TestApp" */;
 			buildPhases = (
-				B4B36E1543E4E0CEA4FAF6FB /* [CP] Check Pods Manifest.lock */,
+				48F1D35B8555FA2955265021 /* [CP] Check Pods Manifest.lock */,
 				24D1504629A5717A0032F08D /* Sources */,
 				24D1504729A5717A0032F08D /* Frameworks */,
 				24D1504829A5717A0032F08D /* Resources */,
 				24ACC91C29C902500043AEA0 /* Copy Config To Resource */,
-				510870C03581302233C20B68 /* [CP] Embed Pods Frameworks */,
+				C42D34B57C3B28654820230C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -692,7 +720,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24D1508829A57A9F0032F08D /* Build configuration list for PBXNativeTarget "SudoNotification" */;
 			buildPhases = (
-				6720FA6848283820956A4105 /* [CP] Check Pods Manifest.lock */,
+				2734B0A16E300F4537F5567B /* [CP] Check Pods Manifest.lock */,
 				24D1507F29A57A9E0032F08D /* Headers */,
 				24D1508029A57A9E0032F08D /* Sources */,
 				24D1508129A57A9E0032F08D /* Frameworks */,
@@ -711,13 +739,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D86DC4C2C19BF200061BF58 /* Build configuration list for PBXNativeTarget "TestExtensionApp" */;
 			buildPhases = (
-				5D86DC412C19BF200061BF58 /* [CP] Check Pods Manifest.lock */,
+				967717DBFF760157D37B62C2 /* [CP] Check Pods Manifest.lock */,
 				5D86DC422C19BF200061BF58 /* Sources */,
 				5D86DC452C19BF200061BF58 /* Frameworks */,
 				5D86DC472C19BF200061BF58 /* Resources */,
 				5D86DC4A2C19BF200061BF58 /* Copy Config To Resource */,
-				5D86DC4B2C19BF200061BF58 /* [CP] Embed Pods Frameworks */,
 				5D86DC6D2C19BF530061BF58 /* Embed Frameworks */,
+				EF320730C782A03402756775 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -733,7 +761,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D86DC6A2C19BF530061BF58 /* Build configuration list for PBXNativeTarget "SudoNotificationExtension" */;
 			buildPhases = (
-				F0C4DC7FAB5F40F005535102 /* [CP] Check Pods Manifest.lock */,
+				0DD9076BB5898B1C80FBD65C /* [CP] Check Pods Manifest.lock */,
 				5D86DC502C19BF520061BF58 /* Headers */,
 				5D86DC512C19BF520061BF58 /* Sources */,
 				5D86DC522C19BF520061BF58 /* Frameworks */,
@@ -752,11 +780,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D86DC6E2C19BF530061BF58 /* Build configuration list for PBXNativeTarget "SudoNotificationExtensionTests" */;
 			buildPhases = (
-				A71FE7E43871C6518F7AE28D /* [CP] Check Pods Manifest.lock */,
+				16DAAF491ECA2C936ED6DCD1 /* [CP] Check Pods Manifest.lock */,
 				5D86DC582C19BF530061BF58 /* Sources */,
 				5D86DC592C19BF530061BF58 /* Frameworks */,
 				5D86DC5A2C19BF530061BF58 /* Resources */,
-				F8893A019DD9AB35B45F6EDA /* [CP] Embed Pods Frameworks */,
+				1A09B53D87C9FC343D7AC84F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -888,7 +916,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		17A5A01FEEAB34C729BD7DC8 /* [CP] Check Pods Manifest.lock */ = {
+		0DD9076BB5898B1C80FBD65C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -903,11 +931,67 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SudoNotification-SudoNotificationTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SudoNotificationExtension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16DAAF491ECA2C936ED6DCD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SudoNotificationExtension-SudoNotificationExtensionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A09B53D87C9FC343D7AC84F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudoNotificationExtension-SudoNotificationExtensionTests/Pods-SudoNotificationExtension-SudoNotificationExtensionTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudoNotificationExtension-SudoNotificationExtensionTests/Pods-SudoNotificationExtension-SudoNotificationExtensionTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SudoNotificationExtension-SudoNotificationExtensionTests/Pods-SudoNotificationExtension-SudoNotificationExtensionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22E12EF5A3E1D0D1CCC3A514 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-SudoNotificationTests/Pods-SudoNotification-SudoNotificationTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-SudoNotificationTests/Pods-SudoNotification-SudoNotificationTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-SudoNotificationTests/Pods-SudoNotification-SudoNotificationTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		24ACC91729C8E8070043AEA0 /* Copy Configuration */ = {
@@ -928,22 +1012,6 @@
 			shellPath = /bin/sh;
 			shellScript = "cp -f /var/anonyome_key/* \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\" || :\ncp -v -f config/* \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\" || :\ncp -f config/register_key.id \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\" || :\necho \"gdsgsadgdsfa\"\n";
 		};
-		24ACC91829C8E9CB0043AEA0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests-frameworks.sh\"\n";
-		};
 		24ACC91C29C902500043AEA0 /* Copy Config To Resource */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -962,24 +1030,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncp -f config/sudoplatformconfig.json \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nls ${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\n";
 		};
-		510870C03581302233C20B68 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-TestApp/Pods-SudoNotification-TestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-TestApp/Pods-SudoNotification-TestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-TestApp/Pods-SudoNotification-TestApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D86DC412C19BF200061BF58 /* [CP] Check Pods Manifest.lock */ = {
+		2734B0A16E300F4537F5567B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -994,7 +1045,68 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SudoNotificationExtension-TestExtensionApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SudoNotification-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39407E7F7B40F9DCEF20C289 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4312E149EB66204F317263C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48F1D35B8555FA2955265021 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SudoNotification-TestApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1019,7 +1131,68 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncp -f config/sudoplatformconfig.json \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nls ${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\n";
 		};
-		5D86DC4B2C19BF200061BF58 /* [CP] Embed Pods Frameworks */ = {
+		94CA6C61F48481909168B73B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SudoNotification-SudoNotificationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		967717DBFF760157D37B62C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SudoNotificationExtension-TestExtensionApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C42D34B57C3B28654820230C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-TestApp/Pods-SudoNotification-TestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-TestApp/Pods-SudoNotification-TestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-TestApp/Pods-SudoNotification-TestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF320730C782A03402756775 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1034,150 +1207,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SudoNotificationExtension-TestExtensionApp/Pods-SudoNotificationExtension-TestExtensionApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		629883372DD75D4AEC6AC77F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6720FA6848283820956A4105 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SudoNotification-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		85D49DA2A88949C4597896B7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-SudoNotificationTests/Pods-SudoNotification-SudoNotificationTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-SudoNotificationTests/Pods-SudoNotification-SudoNotificationTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SudoNotification-SudoNotificationTests/Pods-SudoNotification-SudoNotificationTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A71FE7E43871C6518F7AE28D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SudoNotificationExtension-SudoNotificationExtensionTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B4B36E1543E4E0CEA4FAF6FB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SudoNotification-TestApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0C4DC7FAB5F40F005535102 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SudoNotificationExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8893A019DD9AB35B45F6EDA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SudoNotificationExtension-SudoNotificationExtensionTests/Pods-SudoNotificationExtension-SudoNotificationExtensionTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SudoNotificationExtension-SudoNotificationExtensionTests/Pods-SudoNotificationExtension-SudoNotificationExtensionTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SudoNotificationExtension-SudoNotificationExtensionTests/Pods-SudoNotificationExtension-SudoNotificationExtensionTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1319,7 +1348,7 @@
 /* Begin XCBuildConfiguration section */
 		24ACC90F29C8E4B10043AEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0399CD2F7FF88DD91B2B2AF1 /* Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.debug.xcconfig */;
+			baseConfigurationReference = BDA6799622190364217F033E /* Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1343,7 +1372,7 @@
 		};
 		24ACC91029C8E4B10043AEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A353E76E9F8183E185327C2C /* Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.release.xcconfig */;
+			baseConfigurationReference = 7DA5554A65BDA8DDCCE18291 /* Pods-SudoNotification-SudoNotificationTests-SudoNotificationIntegrationTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1477,7 +1506,7 @@
 		};
 		24D1503629A56FAB0032F08D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE65359FF776AF35DB25572B /* Pods-SudoNotification-SudoNotificationTests.debug.xcconfig */;
+			baseConfigurationReference = 922C3434388FCFC78545ACC4 /* Pods-SudoNotification-SudoNotificationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1500,7 +1529,7 @@
 		};
 		24D1503729A56FAB0032F08D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1837B2229B0F7216DB89C02 /* Pods-SudoNotification-SudoNotificationTests.release.xcconfig */;
+			baseConfigurationReference = 458CF7EACF98F26B423BF3FF /* Pods-SudoNotification-SudoNotificationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1523,7 +1552,7 @@
 		};
 		24D1505629A5717B0032F08D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB7E5591FB07EBA31E3A2C05 /* Pods-SudoNotification-TestApp.debug.xcconfig */;
+			baseConfigurationReference = C6AA68BA8BFF55EB52ABC63A /* Pods-SudoNotification-TestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1558,7 +1587,7 @@
 		};
 		24D1505729A5717B0032F08D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52CDF10AB056F28234B055BB /* Pods-SudoNotification-TestApp.release.xcconfig */;
+			baseConfigurationReference = F995CEF49B380C0B2161B18F /* Pods-SudoNotification-TestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1594,7 +1623,7 @@
 		};
 		24D1508929A57A9F0032F08D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E3CDACAAD8011629E72EEC9 /* Pods-SudoNotification.debug.xcconfig */;
+			baseConfigurationReference = 9C4136B982C21D74D03DE00B /* Pods-SudoNotification.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1632,7 +1661,7 @@
 		};
 		24D1508A29A57A9F0032F08D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEE9553D507BBEAEF7A2A0A5 /* Pods-SudoNotification.release.xcconfig */;
+			baseConfigurationReference = 57B7A5B3042D0D825E581C4E /* Pods-SudoNotification.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1670,7 +1699,7 @@
 		};
 		5D86DC4D2C19BF200061BF58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F63371D7960C4E3A3016D733 /* Pods-SudoNotificationExtension-TestExtensionApp.debug.xcconfig */;
+			baseConfigurationReference = 079A34E3C755DC06DC5759AB /* Pods-SudoNotificationExtension-TestExtensionApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1705,7 +1734,7 @@
 		};
 		5D86DC4E2C19BF200061BF58 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64BE347292E51C086B15247B /* Pods-SudoNotificationExtension-TestExtensionApp.release.xcconfig */;
+			baseConfigurationReference = 0C298037F10C181C91892B66 /* Pods-SudoNotificationExtension-TestExtensionApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1741,7 +1770,7 @@
 		};
 		5D86DC6B2C19BF530061BF58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 295432D2B8E53121703F824C /* Pods-SudoNotificationExtension.debug.xcconfig */;
+			baseConfigurationReference = A3B6BF7AA3E843D0041DCB19 /* Pods-SudoNotificationExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -1786,7 +1815,7 @@
 		};
 		5D86DC6C2C19BF530061BF58 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 146905B7E67F87DA54B45ADF /* Pods-SudoNotificationExtension.release.xcconfig */;
+			baseConfigurationReference = DF8D6EEE35A37280C825A50D /* Pods-SudoNotificationExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -1831,7 +1860,7 @@
 		};
 		5D86DC6F2C19BF530061BF58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CF3F09395B259EF2A785852 /* Pods-SudoNotificationExtension-SudoNotificationExtensionTests.debug.xcconfig */;
+			baseConfigurationReference = E8C1C2CB9AB9C3A8CE8BD3BA /* Pods-SudoNotificationExtension-SudoNotificationExtensionTests.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1858,7 +1887,7 @@
 		};
 		5D86DC702C19BF530061BF58 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E0519F5DFA19302191C427A /* Pods-SudoNotificationExtension-SudoNotificationExtensionTests.release.xcconfig */;
+			baseConfigurationReference = EA6CB0E2A621900DFB099DF3 /* Pods-SudoNotificationExtension-SudoNotificationExtensionTests.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CODE_SIGN_STYLE = Automatic;
