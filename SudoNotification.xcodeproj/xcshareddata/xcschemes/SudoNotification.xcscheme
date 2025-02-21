@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1540"
+   LastUpgradeVersion = "1430"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES"
-      buildArchitectures = "Automatic">
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SudoNotification"
+               BuildableName = "SudoNotification"
+               BlueprintName = "SudoNotification"
+               ReferencedContainer = "container:">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -19,9 +34,9 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5D86DC5B2C19BF530061BF58"
-               BuildableName = "SudoNotificationExtensionTests.xctest"
-               BlueprintName = "SudoNotificationExtensionTests"
+               BlueprintIdentifier = "24D1501D29A56FAB0032F08D"
+               BuildableName = "SudoNotificationTests.xctest"
+               BlueprintName = "SudoNotificationTests"
                ReferencedContainer = "container:SudoNotification.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -41,9 +56,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D86DC402C19BF200061BF58"
-            BuildableName = "TestExtensionApp.app"
-            BlueprintName = "TestExtensionApp"
+            BlueprintIdentifier = "24D1504929A5717A0032F08D"
+            BuildableName = "TestApp.app"
+            BlueprintName = "TestApp"
             ReferencedContainer = "container:SudoNotification.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -57,9 +72,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D86DC402C19BF200061BF58"
-            BuildableName = "TestExtensionApp.app"
-            BlueprintName = "TestExtensionApp"
+            BlueprintIdentifier = "24D1504929A5717A0032F08D"
+            BuildableName = "TestApp.app"
+            BlueprintName = "TestApp"
             ReferencedContainer = "container:SudoNotification.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
