@@ -4,9 +4,9 @@
 // SPDX-License-Identifier: Apache-2.0
 //  
 
+import Amplify
 import Foundation
 import SudoApiClient
-import AWSAppSync
 
 /// Errors that occur in SudoNotification.
 public enum SudoNotificationError: Error, Equatable, LocalizedError {
@@ -106,7 +106,7 @@ public enum SudoNotificationError: Error, Equatable, LocalizedError {
     ///
     /// If the GraphQLError is unsupported, `nil` will be returned instead.
     init(graphQLError error: GraphQLError) {
-        guard let errorType = error["errorType"] as? String else {
+        guard let errorType = error.extensions?["errorType"]?.stringValue else {
             self = .graphQLError(cause: error)
             return
         }
@@ -135,6 +135,9 @@ public enum SudoNotificationError: Error, Equatable, LocalizedError {
     }
 
     static func fromApiOperationError(error: Error) -> SudoNotificationError {
+        if let notificationError = error as? SudoNotificationError {
+            return notificationError
+        }
         // Check if ApiOperationError
         guard let apiOperationError = error as? ApiOperationError else {
             return .fatalError("Unexpected error: \(error)")
@@ -153,8 +156,11 @@ public enum SudoNotificationError: Error, Equatable, LocalizedError {
             return .invalidRequest
         case .serviceError:
             return .serviceError
-        case .graphQLError(let cause):
-            return SudoNotificationError(graphQLError: cause)
+        case .graphQLError(let underlyingError):
+            guard let graphQLError = underlyingError as? GraphQLError else {
+                return .fatalError("Unexpected API operation error: \(error)")
+            }
+            return SudoNotificationError(graphQLError: graphQLError)
         case .requestFailed(let response, let cause):
             return .requestFailed(response: response, cause: cause)
         case .fatalError(let description):

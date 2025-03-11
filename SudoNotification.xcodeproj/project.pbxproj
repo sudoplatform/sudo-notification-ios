@@ -17,6 +17,7 @@
 		24D1504F29A5717A0032F08D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1504E29A5717A0032F08D /* ContentView.swift */; };
 		24D1505129A5717B0032F08D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D1505029A5717B0032F08D /* Assets.xcassets */; };
 		24D1505429A5717B0032F08D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D1505329A5717B0032F08D /* Preview Assets.xcassets */; };
+		41E8056C2D7FF80500EBA8B9 /* SudoKeyManager in Frameworks */ = {isa = PBXBuildFile; productRef = 41E8056B2D7FF80500EBA8B9 /* SudoKeyManager */; };
 		5D86DC432C19BF200061BF58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1504E29A5717A0032F08D /* ContentView.swift */; };
 		5D86DC442C19BF200061BF58 /* TestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1504C29A5717A0032F08D /* TestAppApp.swift */; };
 		5D86DC482C19BF200061BF58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D1505329A5717B0032F08D /* Preview Assets.xcassets */; };
@@ -126,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E8056C2D7FF80500EBA8B9 /* SudoKeyManager in Frameworks */,
 				E273D6832D0B6FC200075197 /* SudoNotification in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,6 +475,7 @@
 			name = SudoNotificationIntegrationTests;
 			packageProductDependencies = (
 				E273D6822D0B6FC200075197 /* SudoNotification */,
+				41E8056B2D7FF80500EBA8B9 /* SudoKeyManager */,
 			);
 			productName = SudoNotificationIntegrationTests;
 			productReference = 24ACC90829C8E4B10043AEA0 /* SudoNotificationIntegrationTests.xctest */;
@@ -596,6 +599,9 @@
 				Base,
 			);
 			mainGroup = 24D1500429A56FA90032F08D;
+			packageReferences = (
+				41E8056A2D7FF80500EBA8B9 /* XCRemoteSwiftPackageReference "sudo-key-manager-ios" */,
+			);
 			productRefGroup = 24D1500E29A56FA90032F08D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1228,7 +1234,23 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		41E8056A2D7FF80500EBA8B9 /* XCRemoteSwiftPackageReference "sudo-key-manager-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sudoplatform/sudo-key-manager-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		41E8056B2D7FF80500EBA8B9 /* SudoKeyManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41E8056A2D7FF80500EBA8B9 /* XCRemoteSwiftPackageReference "sudo-key-manager-ios" */;
+			productName = SudoKeyManager;
+		};
 		E273D6802D0B6FBC00075197 /* SudoNotification */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SudoNotification;

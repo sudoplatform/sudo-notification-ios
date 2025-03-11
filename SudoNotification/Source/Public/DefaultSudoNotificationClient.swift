@@ -4,7 +4,6 @@
 // SPDX-License-Identifier: Apache-2.0
 //  
 
-import AWSAppSync
 import SudoApiClient
 import SudoLogging
 import SudoUser
@@ -129,7 +128,6 @@ public class DefaultSudoNotificationClient: SudoNotificationClient {
 
     public func reset() throws {
         allResetables.forEach { $0.reset() }
-        try self.graphQLClient.clearCaches(options: .init(clearQueries: true, clearMutations: true, clearSubscriptions: false))
     }
 
     public func getNotificationConfiguration(device: NotificationDeviceInputProvider) async throws -> NotificationConfiguration {
