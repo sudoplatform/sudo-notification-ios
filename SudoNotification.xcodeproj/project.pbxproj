@@ -17,6 +17,7 @@
 		24D1504F29A5717A0032F08D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1504E29A5717A0032F08D /* ContentView.swift */; };
 		24D1505129A5717B0032F08D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D1505029A5717B0032F08D /* Assets.xcassets */; };
 		24D1505429A5717B0032F08D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D1505329A5717B0032F08D /* Preview Assets.xcassets */; };
+		414D9C292D8B8BCA00E8F12C /* NotificationTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414D9C282D8B8BCA00E8F12C /* NotificationTransformerTests.swift */; };
 		41E8056C2D7FF80500EBA8B9 /* SudoKeyManager in Frameworks */ = {isa = PBXBuildFile; productRef = 41E8056B2D7FF80500EBA8B9 /* SudoKeyManager */; };
 		5D86DC432C19BF200061BF58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1504E29A5717A0032F08D /* ContentView.swift */; };
 		5D86DC442C19BF200061BF58 /* TestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1504C29A5717A0032F08D /* TestAppApp.swift */; };
@@ -104,6 +105,7 @@
 		24D150B229A6CF4D0032F08D /* NotificationTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTransformer.swift; sourceTree = "<group>"; };
 		24D150B629A712C30032F08D /* DeRegisterNotificationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeRegisterNotificationUseCase.swift; sourceTree = "<group>"; };
 		24F0319B29AD217700CD93E6 /* UpdateNotificationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNotificationUseCase.swift; sourceTree = "<group>"; };
+		414D9C282D8B8BCA00E8F12C /* NotificationTransformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTransformerTests.swift; sourceTree = "<group>"; };
 		5D86DC392C19BE1C0061BF58 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Public/Constants.swift; sourceTree = "<group>"; };
 		5D86DC3B2C19BE2E0061BF58 /* SudoNotificationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudoNotificationError.swift; sourceTree = "<group>"; };
 		5D86DC3E2C19BEAC0061BF58 /* SudoNotificationFilterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudoNotificationFilterClient.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				5D86DC8D2C19C9280061BF58 /* AnyError.swift */,
+				414D9C282D8B8BCA00E8F12C /* NotificationTransformerTests.swift */,
 				24D1502229A56FAB0032F08D /* SudoNotificationTests.swift */,
 			);
 			path = SudoNotificationTests;
@@ -732,6 +735,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D86DC8E2C19C9280061BF58 /* AnyError.swift in Sources */,
+				414D9C292D8B8BCA00E8F12C /* NotificationTransformerTests.swift in Sources */,
 				24D1502329A56FAB0032F08D /* SudoNotificationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
