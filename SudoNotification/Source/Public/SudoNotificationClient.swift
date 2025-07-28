@@ -1,5 +1,5 @@
 //
-// Copyright © 2022 Anonyome Labs, Inc. All rights reserved.
+// Copyright © 2025 Anonyome Labs, Inc. All rights reserved.
 //
 // SPDX-License-Identifier: Apache-2.0
 //  
@@ -25,11 +25,31 @@ public protocol SudoNotificationClient: AnyObject {
     // MARK: - Queries
 
     /// Get the current set of notification configuration on this device
+    ///  - Parameters:
+    ///     - device: Device profile for the push notification
     /// - Returns:
     ///   - Success: The set of notification configurations the user currently set for this device
     /// - Throws:
     ///   - `SudoNotificationError`
     func getNotificationConfiguration(device: NotificationDeviceInputProvider) async throws -> NotificationConfiguration
+
+    /// Get the current set of notification configuration for the user
+    /// - Parameters:
+    ///    - bundleId: Application's bundle ID e.g. com.sudoplatform.notification.app
+    /// - Returns:
+    ///   - Success: The set of notification configurations the user currently set for the user
+    /// - Throws:
+    ///   - `SudoNotificationError`
+    func getUserNotificationConfiguration(bundleId: String) async throws -> NotificationConfiguration?
+
+    /// Get the current set of notification configuration on this device
+    ///  - Parameters:
+    ///     - device: Device profile for the push notification
+    /// - Returns:
+    ///   - Success: The set of notification configurations the user currently set for this device
+    /// - Throws:
+    ///   - `SudoNotificationError`
+    func getUserAndDeviceNotificationConfiguration(device: NotificationDeviceInputProvider) async throws -> UserAndDeviceNotificationConfiguration
 
     // MARK: - Mutations
 
@@ -51,12 +71,33 @@ public protocol SudoNotificationClient: AnyObject {
     ///    - `SudoNotificationError`
     func registerNotification(device: NotificationDeviceInputProvider) async throws
 
-    /// Set the notification configuration for the user.
+    /// Set the notification configuration for the device.
+    ///
+    /// Any device specific configuration is evaluated first. Evaluation of
+    /// rules will fall back to user level settings if there is no matching
+    /// device rule or it is just a catch-all rule that matches.
+    ///
+    /// - Parameters:
+    ///    - config: Device profile for the push notification
     /// - Returns:
     ///   - The current set of configuration the user has on this device after the set action has completed.
     /// - Throws:
     ///     `SudoNotificationError`.
     func setNotificationConfiguration(config: NotificationSettingsInput) async throws -> NotificationConfiguration
+
+    /// Set the notification configuration for the user.
+    ///
+    /// Any device specific configuration is evaluated first. Evaluation of
+    /// rules will fall back to user level settings if there is no matching
+    /// device rule or it is just a catch-all rule that matches.
+    ///
+    /// - Parameters:
+    ///    - config: User level notification configuration
+    /// - Returns:
+    ///   - The current set of configuration the user action has completed.
+    /// - Throws:
+    ///     `SudoNotificationError`.
+    func setUserNotificationConfiguration(config: UserNotificationSettingsInput) async throws -> NotificationConfiguration
 
     /// Update push notification registration for the user on this device
     ///  - Parameters:

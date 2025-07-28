@@ -1,5 +1,5 @@
 //
-// Copyright © 2022 Anonyome Labs, Inc. All rights reserved.
+// Copyright © 2025 Anonyome Labs, Inc. All rights reserved.
 //
 // SPDX-License-Identifier: Apache-2.0
 //  
@@ -27,8 +27,20 @@ class UseCaseFactory {
         return GetNotificationConfigurationUseCase(repository: repository)
     }
     
+    func generateGetUserNotificationConfigurationUseCase() -> GetUserNotificationConfigurationUseCase {
+        return GetUserNotificationConfigurationUseCase(repository: repository)
+    }
+    
+    func generateGetUserAndDeviceNotificationConfigurationUseCase() -> GetUserAndDeviceNotificationConfigurationUseCase {
+        return GetUserAndDeviceNotificationConfigurationUseCase(repository: repository)
+    }
+    
     func generateSetNotificationConfigurationUseCase() -> SetNotificationConfigurationUseCase {
         return SetNotificationConfigurationUseCase(repository: repository)
+    }
+    
+    func generateSetUserNotificationConfigurationUseCase() -> SetUserNotificationConfigurationUseCase {
+        return SetUserNotificationConfigurationUseCase(repository: repository)
     }
     
     func generateUpdateNotificationRegitrationUseCase() -> UpdateNotificationUseCase {

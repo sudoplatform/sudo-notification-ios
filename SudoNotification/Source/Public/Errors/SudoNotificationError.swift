@@ -1,5 +1,5 @@
 //
-// Copyright © 2022 Anonyome Labs, Inc. All rights reserved.
+// Copyright © 2025 Anonyome Labs, Inc. All rights reserved.
 //
 // SPDX-License-Identifier: Apache-2.0
 //  
@@ -63,7 +63,7 @@ public enum SudoNotificationError: Error, Equatable, LocalizedError {
     /// Device not found
     case notFound
 
-    /// Device update error
+    /// Device or user info update error
     case updateError
 
     /// Device delete error
@@ -72,7 +72,7 @@ public enum SudoNotificationError: Error, Equatable, LocalizedError {
     /// Device create error
     case createError
 
-    /// Device read error
+    /// Device or user info read error
     case readError
 
     /// Indicates that the request operation failed due to authorization error. This maybe due to the authentication
@@ -117,11 +117,19 @@ public enum SudoNotificationError: Error, Equatable, LocalizedError {
             self = .notFound
         case "sudoplatform.ns.DeviceCreate":
             self = .createError
-        case "sudoplatform.ns.DeviceUpdate":
+        // Not much value to the user in distinguishing between these two since
+        // context will usually be sufficient to distinguish and there's nothing
+        // the user can really or app would do different in response to receiving
+        // one or the other in any case
+        case "sudoplatform.ns.DeviceUpdate", "sudoplatform.ns.UserInfoUpdate":
             self = .updateError
         case "sudoplatform.ns.DeviceDelete":
             self = .deleteError
-        case "sudoplatform.ns.DeviceRead":
+        // Not much value to the user in distinguishing between these two since
+        // context will usually be sufficient to distinguish and there's nothing
+        // the user can really or app would do different in response to receiving
+        // one or the other in any case
+        case "sudoplatform.ns.DeviceRead", "sudoplatform.ns.UserInfoRead":
             self = .readError
         default:
             self = .graphQLError(cause: error)

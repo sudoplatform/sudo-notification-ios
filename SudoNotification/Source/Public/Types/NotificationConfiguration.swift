@@ -1,5 +1,5 @@
 //
-// Copyright © 2022 Anonyome Labs, Inc. All rights reserved.
+// Copyright © 2025 Anonyome Labs, Inc. All rights reserved.
 //
 // SPDX-License-Identifier: Apache-2.0
 //  
@@ -64,6 +64,18 @@ public struct NotificationSettingsInput {
 
     public var bundleId: String
     public var deviceId: String
+    public var filter: [NotificationFilterItem]
+    public var services: [NotificationMetaData]
+}
+
+public struct UserNotificationSettingsInput {
+    public init(bundleId: String, filter: [NotificationFilterItem], services: [NotificationMetaData]) {
+        self.bundleId = bundleId
+        self.filter = filter
+        self.services = services
+    }
+
+    public var bundleId: String
     public var filter: [NotificationFilterItem]
     public var services: [NotificationMetaData]
 }

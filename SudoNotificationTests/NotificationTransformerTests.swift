@@ -1,5 +1,5 @@
 //
-// Copyright © 2022 Anonyome Labs, Inc. All rights reserved.
+// Copyright © 2025 Anonyome Labs, Inc. All rights reserved.
 //
 // SPDX-License-Identifier: Apache-2.0
 //
@@ -25,18 +25,18 @@ final class NotificationTransformerTests: XCTestCase {
 
     func test_transformGetNotificationSettingsQuery_withEnabledFilterAction_willReturnCorrectNotificatonConfiguration() throws {
         // given
-        let filter = GetNotificationSettingsQuery.Data.GetNotificationSetting.Filter(
+        let filter = GraphQL.GetNotificationSettingsQuery.Data.GetNotificationSetting.Filter(
             serviceName: UUID().uuidString,
             actionType: .enable,
             rule: UUID().uuidString,
             enableMeta: UUID().uuidString
         )
-        let data = GetNotificationSettingsQuery.Data.GetNotificationSetting(filter: [filter])
-        let jsonEncodedData = GetNotificationSettingsQuery.Data.GetNotificationSetting(
+        let data = GraphQL.GetNotificationSettingsQuery.Data.GetNotificationSetting(filter: [filter])
+        let jsonEncodedData = GraphQL.GetNotificationSettingsQuery.Data.GetNotificationSetting(
             snapshot: data.snapshot.mapValues { $0.jsonValue as? JSONEncodable }
         )
         // when
-        let result = instanceUnderTest.transform(jsonEncodedData)
+        let result = instanceUnderTest.transform(jsonEncodedData.fragments.notificationSettingsOutput)
         // then
         XCTAssertEqual(result.configs.count, 1)
         let config = try XCTUnwrap(result.configs.first)
@@ -48,18 +48,18 @@ final class NotificationTransformerTests: XCTestCase {
 
     func test_transformGetNotificationSettingsQuery_withDisabledFilterAction_willReturnCorrectNotificatonConfiguration() throws {
         // given
-        let filter = GetNotificationSettingsQuery.Data.GetNotificationSetting.Filter(
+        let filter = GraphQL.GetNotificationSettingsQuery.Data.GetNotificationSetting.Filter(
             serviceName: UUID().uuidString,
             actionType: .disable,
             rule: UUID().uuidString,
             enableMeta: UUID().uuidString
         )
-        let data = GetNotificationSettingsQuery.Data.GetNotificationSetting(filter: [filter])
-        let jsonEncodedData = GetNotificationSettingsQuery.Data.GetNotificationSetting(
+        let data = GraphQL.GetNotificationSettingsQuery.Data.GetNotificationSetting(filter: [filter])
+        let jsonEncodedData = GraphQL.GetNotificationSettingsQuery.Data.GetNotificationSetting(
             snapshot: data.snapshot.mapValues { $0.jsonValue as? JSONEncodable }
         )
         // when
-        let result = instanceUnderTest.transform(jsonEncodedData)
+        let result = instanceUnderTest.transform(jsonEncodedData.fragments.notificationSettingsOutput)
         // then
         XCTAssertEqual(result.configs.count, 1)
         let config = try XCTUnwrap(result.configs.first)

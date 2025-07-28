@@ -1,5 +1,5 @@
 //
-// Copyright © 2022 Anonyome Labs, Inc. All rights reserved.
+// Copyright © 2025 Anonyome Labs, Inc. All rights reserved.
 //
 // SPDX-License-Identifier: Apache-2.0
 //  
@@ -16,9 +16,18 @@ protocol NotificationRepository: AnyObject, Resetable {
     /// deregister for notification
     func deregisterNotification(device: NotificationDeviceInputProvider) async throws
 
-    /// get notification settings
+    /// get device notification settings
     func getNotificationConfiguration(device: NotificationDeviceInputProvider) async throws -> NotificationConfiguration
 
-    /// set notification settings
+    /// get user notification settings
+    func getUserNotificationConfiguration(bundleId: String) async throws -> NotificationConfiguration?
+
+    /// get user and device notification settings
+    func getUserAndDeviceNotificationConfiguration(bundleId: String, deviceId: String) async throws -> UserAndDeviceNotificationConfiguration
+
+    /// set device notification settings
     func setNotificationConfiguration(config: NotificationSettingsInput) async throws -> NotificationConfiguration
+
+    /// set user notification settings
+    func setUserNotificationConfiguration(config: UserNotificationSettingsInput) async throws -> NotificationConfiguration
 }

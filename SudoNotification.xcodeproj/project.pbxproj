@@ -85,7 +85,6 @@
 		24D1505029A5717B0032F08D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24D1505329A5717B0032F08D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24D1508629A57A9F0032F08D /* SudoNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SudoNotification.h; sourceTree = "<group>"; };
-		24D1508B29A582200032F08D /* GraphQLAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphQLAPI.swift; sourceTree = "<group>"; };
 		24D1509029A582B40032F08D /* SudoLogger+Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SudoLogger+Notification.swift"; sourceTree = "<group>"; };
 		24D1509229A583040032F08D /* Bundle+Static.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Static.swift"; sourceTree = "<group>"; };
 		24D1509429A5836E0032F08D /* SudoNotificationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudoNotificationError.swift; sourceTree = "<group>"; };
@@ -122,6 +121,11 @@
 		5D86DC842C19BFC80061BF58 /* TestNotifiableClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestNotifiableClient.swift; sourceTree = "<group>"; };
 		5D86DC872C19C2550061BF58 /* AnyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
 		5D86DC8D2C19C9280061BF58 /* AnyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
+		5DAC8D652E3316440023BD47 /* UserAndDeviceNotificationConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAndDeviceNotificationConfiguration.swift; sourceTree = "<group>"; };
+		5DAC8D662E332D5F0023BD47 /* GraphQLAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLAPI.swift; sourceTree = "<group>"; };
+		5DAC8D6A2E3340D20023BD47 /* GetUserAndDeviceNotificationConfigurationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserAndDeviceNotificationConfigurationUseCase.swift; sourceTree = "<group>"; };
+		5DAC8D6B2E3340F00023BD47 /* GetUserNotificationConfigurationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserNotificationConfigurationUseCase.swift; sourceTree = "<group>"; };
+		5DAC8D6C2E334B5E0023BD47 /* SetUserNotificationConfigurationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUserNotificationConfigurationUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,7 +273,7 @@
 				24D1509C29A5958B0032F08D /* Protocols */,
 				24D1508E29A582860032F08D /* Repository */,
 				24D1508F29A582900032F08D /* Transformers */,
-				24D1508B29A582200032F08D /* GraphQLAPI.swift */,
+				5DAC8D662E332D5F0023BD47 /* GraphQLAPI.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -298,6 +302,7 @@
 				24D1509829A5936D0032F08D /* NotificationConfiguration.swift */,
 				24D1509F29A59F9C0032F08D /* NotificationDeviceInputProvider.swift */,
 				5D86DC3E2C19BEAC0061BF58 /* SudoNotificationFilterClient.swift */,
+				5DAC8D652E3316440023BD47 /* UserAndDeviceNotificationConfiguration.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -337,8 +342,11 @@
 			children = (
 				24D150B629A712C30032F08D /* DeRegisterNotificationUseCase.swift */,
 				24D150AA29A6AE3F0032F08D /* GetNotificationConfigurationUseCase.swift */,
+				5DAC8D6A2E3340D20023BD47 /* GetUserAndDeviceNotificationConfigurationUseCase.swift */,
+				5DAC8D6B2E3340F00023BD47 /* GetUserNotificationConfigurationUseCase.swift */,
 				24D150A529A6AAAA0032F08D /* RegisterNotificationUseCase.swift */,
 				24D150AC29A6AE4A0032F08D /* SetNotificationConfigurationUseCase.swift */,
+				5DAC8D6C2E334B5E0023BD47 /* SetUserNotificationConfigurationUseCase.swift */,
 				24F0319B29AD217700CD93E6 /* UpdateNotificationUseCase.swift */,
 				24D150A329A6AA170032F08D /* UseCaseFactory.swift */,
 			);

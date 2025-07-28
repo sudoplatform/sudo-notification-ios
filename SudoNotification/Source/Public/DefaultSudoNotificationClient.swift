@@ -1,5 +1,5 @@
 //
-// Copyright © 2022 Anonyome Labs, Inc. All rights reserved.
+// Copyright © 2025 Anonyome Labs, Inc. All rights reserved.
 //
 // SPDX-License-Identifier: Apache-2.0
 //  
@@ -139,12 +139,39 @@ public class DefaultSudoNotificationClient: SudoNotificationClient {
         return try await useCase.execute(device: device)
     }
 
+    public func getUserNotificationConfiguration(bundleId: String) async throws -> NotificationConfiguration? {
+        guard try await userClient.isSignedIn() else {
+            throw SudoNotificationError.notSignedIn
+        }
+
+        let useCase = useCaseFactory.generateGetUserNotificationConfigurationUseCase()
+        return try await useCase.execute(bundleId: bundleId)
+    }
+
+    public func getUserAndDeviceNotificationConfiguration(device: NotificationDeviceInputProvider) async throws -> UserAndDeviceNotificationConfiguration {
+        guard try await userClient.isSignedIn() else {
+            throw SudoNotificationError.notSignedIn
+        }
+
+        let useCase = useCaseFactory.generateGetUserAndDeviceNotificationConfigurationUseCase()
+        return try await useCase.execute(bundleId: device.bundleIdentifier, deviceId: device.deviceIdentifier)
+    }
+
     public func setNotificationConfiguration(config: NotificationSettingsInput) async throws -> NotificationConfiguration {
         guard try await userClient.isSignedIn() else {
             throw SudoNotificationError.notSignedIn
         }
 
         let useCase = useCaseFactory.generateSetNotificationConfigurationUseCase()
+        return try await useCase.execute(config: config)
+    }
+
+    public func setUserNotificationConfiguration(config: UserNotificationSettingsInput) async throws -> NotificationConfiguration {
+        guard try await userClient.isSignedIn() else {
+            throw SudoNotificationError.notSignedIn
+        }
+
+        let useCase = useCaseFactory.generateSetUserNotificationConfigurationUseCase()
         return try await useCase.execute(config: config)
     }
 
