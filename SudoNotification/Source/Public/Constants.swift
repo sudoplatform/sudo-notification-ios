@@ -6,7 +6,7 @@
 
 import Foundation
 
-public struct Constants {
+public struct Constants: Sendable {
     /// Configuration namespace.
     public struct Namespace {
         static let notificationService = "notificationService"

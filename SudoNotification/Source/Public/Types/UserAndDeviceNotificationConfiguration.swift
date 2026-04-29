@@ -6,7 +6,7 @@
 
 import Foundation
 
-public struct UserAndDeviceNotificationConfiguration {
+public struct UserAndDeviceNotificationConfiguration: Sendable {
     public let user: NotificationConfiguration?
     public let device: NotificationConfiguration?
     

@@ -6,7 +6,7 @@
 
 import Foundation
 
-public struct NotificationConfiguration {
+public struct NotificationConfiguration: Sendable {
     public static let defaultRuleString = """
                                             {"==": [1, 1]}
                                             """
@@ -34,7 +34,7 @@ public struct NotificationConfiguration {
     }
 }
 
-public struct NotificationFilterItem {
+public struct NotificationFilterItem: Sendable {
     public var uuid: UUID
     public var name: String
     public var status: String
@@ -54,7 +54,7 @@ public struct NotificationFilterItem {
     }
 }
 
-public struct NotificationSettingsInput {
+public struct NotificationSettingsInput: Sendable {
     public init(bundleId: String, deviceId: String, filter: [NotificationFilterItem], services: [NotificationMetaData]) {
         self.bundleId = bundleId
         self.deviceId = deviceId
@@ -68,7 +68,7 @@ public struct NotificationSettingsInput {
     public var services: [NotificationMetaData]
 }
 
-public struct UserNotificationSettingsInput {
+public struct UserNotificationSettingsInput: Sendable {
     public init(bundleId: String, filter: [NotificationFilterItem], services: [NotificationMetaData]) {
         self.bundleId = bundleId
         self.filter = filter

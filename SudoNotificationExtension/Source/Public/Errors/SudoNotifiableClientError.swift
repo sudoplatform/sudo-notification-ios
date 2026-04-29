@@ -6,7 +6,7 @@
 
 import Foundation
 
-public enum SudoNotifiableClientError: Error, Equatable, LocalizedError {
+public enum SudoNotifiableClientError: Error, Equatable, LocalizedError, Sendable {
     /// Attempt to construct a DefaultSudoNotifiableClient was made with multiple instances of the same SDK notifiable
     /// client
     case duplicateNotifiableClient(_ serviceName: String)

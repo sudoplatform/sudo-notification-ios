@@ -73,10 +73,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D86DC402C19BF200061BF58"
-            BuildableName = "TestExtensionApp.app"
-            BlueprintName = "TestExtensionApp"
-            ReferencedContainer = "container:SudoNotification.xcodeproj">
+            BlueprintIdentifier = "SudoNotificationExtension"
+            BuildableName = "SudoNotificationExtension"
+            BlueprintName = "SudoNotificationExtension"
+            ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

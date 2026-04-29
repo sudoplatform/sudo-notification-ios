@@ -12,7 +12,7 @@ import PushKit
 
 /// Client used to decode service specific notification data. Each Sudo Platform service SDK that has notifications
 /// provides an implementation of this protocol that must be passed to `DefaultSudoNotifiableClient` on construction.
-public protocol SudoNotifiableClient {
+public protocol SudoNotifiableClient: Sendable {
     /// Name of service for the implementing Sudo Platform SDK. Matches the corresponding service's configuration
     /// section within sudoplatformconfig.json
     var serviceName: String { get }

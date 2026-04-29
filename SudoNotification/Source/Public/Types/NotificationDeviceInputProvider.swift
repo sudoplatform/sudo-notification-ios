@@ -8,7 +8,7 @@ import Foundation
 
 /// `NotificationDeviceInputProvider` conforming instances are required to provide an accurate representation of the current device information.
 /// Primarily used with registrations.
-public protocol NotificationDeviceInputProvider {
+public protocol NotificationDeviceInputProvider: Sendable {
 
     /// String representation of the build type to assign to a device or device info.
     var buildType: String { get }

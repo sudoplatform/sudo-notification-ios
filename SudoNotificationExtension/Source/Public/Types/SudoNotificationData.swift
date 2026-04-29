@@ -7,7 +7,7 @@
 import Foundation
 
 ///
-public struct SudoNotificationData: Equatable {
+public struct SudoNotificationData: Equatable, Sendable {
     /// Name of service for the implementing Sudo Platform SDK. Matches the corresponding service's configuration
     /// section within sudoplatformconfig.json
     public let serviceName: String

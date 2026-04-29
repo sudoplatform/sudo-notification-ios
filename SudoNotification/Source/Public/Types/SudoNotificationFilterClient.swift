@@ -9,7 +9,7 @@ import Foundation
 /// Client used to provide filter schema information to the notification SDk. Each Sudo Platform service SDK that has
 /// notifications provides an implementation of this protocol that must be passed to `DefaultSudoNotificationClient`
 /// on construction.
-public protocol SudoNotificationFilterClient {
+public protocol SudoNotificationFilterClient: Sendable {
     /// Name of service for the implementing Sudo Platform SDK. Matches the corresponding service's configuration
     /// section within sudoplatformconfig.json
     var serviceName: String { get }
@@ -18,7 +18,7 @@ public protocol SudoNotificationFilterClient {
     func getSchema() -> NotificationMetaData
 }
 
-public struct NotificationMetaData {
+public struct NotificationMetaData: Sendable {
     /// Name of service for the implementing Sudo Platform SDK. Matches the corresponding service's configuration
     /// section within sudoplatformconfig.json
     let serviceName: String
@@ -32,7 +32,7 @@ public struct NotificationMetaData {
     }
 }
 
-public struct NotificationSchemaEntry {
+public struct NotificationSchemaEntry: Sendable {
     /// Description of the fitlerable property
     public let description: String
 

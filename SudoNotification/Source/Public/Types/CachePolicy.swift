@@ -10,7 +10,7 @@ import Foundation
 /// the notification Service.
 ///
 /// This is a veneer around `SudoOperations.CachePolicy`.
-public enum CachePolicy: Equatable {
+public enum CachePolicy: Equatable, Sendable {
     /// Use the device cached data.
     case cacheOnly
     /// Query and use the data on the server.

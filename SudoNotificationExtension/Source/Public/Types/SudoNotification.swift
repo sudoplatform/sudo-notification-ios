@@ -8,7 +8,7 @@ import Foundation
 
 /// Base SudoNotification protocol. Service specific SDKs provide concrete classes implementing this
 /// protocol that will be returned by `SudoNotifiableClient.decodeData`
-public protocol SudoNotification {
+public protocol SudoNotification: Sendable {
     /// Name of service for the implementing Sudo Platform SDK. Matches the corresponding service's configuration
     /// section within sudoplatformconfig.json
     var serviceName: String { get }

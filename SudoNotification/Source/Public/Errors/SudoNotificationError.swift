@@ -9,7 +9,7 @@ import Foundation
 import SudoApiClient
 
 /// Errors that occur in SudoNotification.
-public enum SudoNotificationError: Error, Equatable, LocalizedError {
+public enum SudoNotificationError: Error, Equatable, LocalizedError, @unchecked Sendable {
     public static func == (lhs: SudoNotificationError, rhs: SudoNotificationError) -> Bool {
         switch (lhs, rhs) {
         case (.requestFailed(let lhsResponse, let lhsCause), requestFailed(let rhsResponse, let rhsCause)):

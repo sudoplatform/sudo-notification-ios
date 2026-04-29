@@ -12,10 +12,10 @@ import SudoLogging
 /// Client used to decode notification payload data specific to Sudo Platform services used by an application
 ///
 /// This client is light weight and suitable for use within a Notification Extension
-public class DefaultSudoNotifiableClient {
+public final class DefaultSudoNotifiableClient: Sendable {
     // MARK: - Properties
 
-    private var notifiableClients: [String: any SudoNotifiableClient]
+    private let notifiableClients: [String: any SudoNotifiableClient]
     private let logger: Logger
 
     // MARK: - Lifecycle
@@ -35,17 +35,19 @@ public class DefaultSudoNotifiableClient {
     }
 
     init(notifiableClients: [any SudoNotifiableClient], logger: Logger) throws {
-        self.notifiableClients = [:]
-        self.logger = logger
+        var clients: [String: any SudoNotifiableClient] = [:]
 
         try notifiableClients.forEach { notifiableClient in
-            if self.notifiableClients[notifiableClient.serviceName] != nil {
+            if clients[notifiableClient.serviceName] != nil {
                 throw SudoNotifiableClientError.duplicateNotifiableClient(notifiableClient.serviceName)
             }
 
             logger.debug("Adding notifiable client for \(notifiableClient.serviceName)")
-            self.notifiableClients[notifiableClient.serviceName] = notifiableClient
+            clients[notifiableClient.serviceName] = notifiableClient
         }
+
+        self.notifiableClients = clients
+        self.logger = logger
     }
 
     // MARK: Public methods
